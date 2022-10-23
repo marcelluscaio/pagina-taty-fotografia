@@ -1,0 +1,22 @@
+@import url("reset.css");
+
+:root{
+   --gray: #9C9C9C;
+   --lilac: #A567A3;
+   --pink: #FF6296;
+   --white: #FFAADE;
+   --dark-gray: #2E2E2E;
+   --black: #170C17;
+   --purple: #5F2268;
+
+   --main-font: 'Ubuntu', sans-serif;
+   --title-font: 'Crafty Girls', cursive;
+}
+
+*{
+   box-sizing: border-box;
+}
+
+body{
+   font-family: var(--main-font);
+}
