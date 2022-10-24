@@ -1,5 +1,18 @@
 read me em construção
 
+Estrutura:
+
+Header semitransparente (usando mix blend mode)
+Portfolio, Sobre mim, Contato 
+
+Foto grande em parallaxe pegando toda a primeira dobra
+
+Breve apreentacao (sobre mim) com slideshow abaixo
+
+Call to action (entre ja em contato)com grid abaixo
+
+Swiper com depoimento
+
 
 Guia de estilos:
 
@@ -19,6 +32,7 @@ https://www.duzzemartins.com/
 https://www.leofaria.com.br/
 
 https://www.ricardohara.com.br/
+(Grid, slider com setas)
 
 https://www.robisonkunz.com.br/
 

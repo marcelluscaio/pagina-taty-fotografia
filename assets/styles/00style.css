@@ -1,4 +1,5 @@
 @import url("reset.css");
+@import url("01header.css");
 
 :root{
    --gray: #9C9C9C;
@@ -11,6 +12,11 @@
 
    --main-font: 'Ubuntu', sans-serif;
    --title-font: 'Crafty Girls', cursive;
+
+   --font-size-sm: 0.75rem;
+   --font-size-nm: 1.125rem;
+   --font-size-lg: 2rem;
+   --font-size-xl: 3rem;
 }
 
 *{
@@ -19,4 +25,12 @@
 
 body{
    font-family: var(--main-font);
+}
+
+.header{
+   position: relative;
+   z-index: 1;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }

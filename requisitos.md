@@ -1,4 +1,6 @@
 Utilizar:
+usar clamp()?
+Usar mobile first
 Grid
 Fazer texto dentroda imagem com dropshadow dentro
 https://www.w3schools.com/css/css3_image_reflection.asp
@@ -7,3 +9,4 @@ Swiper
 Regex
 Fazer borda incompleta (https://www.w3docs.com/snippets/css/how-to-limit-border-length-with-css.html)
 Fazer image em parallax
+Fazer FAQ so com o +

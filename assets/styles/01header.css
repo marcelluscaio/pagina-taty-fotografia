@@ -1,0 +1,43 @@
+.header:after{
+   content: "";
+   inset: 0;
+   position: absolute;
+   background-image: linear-gradient(140deg, var(--lilac) -40%, var(--gray), var(--pink) 140%);
+   z-index: -1;
+   mix-blend-mode: multiply;
+}
+
+.header--banner{
+   position: absolute;
+   height: 100vh;
+   width: 100%;
+   z-index: -1;
+   align-self: flex-start;
+   background-image: url("../img/banner-background2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.header--logo{
+   width: clamp(100px, 8%, 200px);
+   margin: 1rem 2rem;
+}
+
+.header--navigation{
+   margin-right: 9rem;
+}
+
+.header--navigation--list{
+   display: flex;
+   gap: 4em;
+}
+
+.header--navigation--list--item--link{
+   text-decoration: none;
+   color: transparent;
+   background-image: linear-gradient(140deg, var(--white) -90%, var(--pink) 190%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   font-size: var(--font-size-nm);
+}
