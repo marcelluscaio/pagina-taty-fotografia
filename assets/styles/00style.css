@@ -1,11 +1,12 @@
 @import url("reset.css");
 @import url("01header.css");
+@import url("02introduction.css");
 
 :root{
    --gray: #9C9C9C;
    --lilac: #A567A3;
    --pink: #FF6296;
-   --white: #FFAADE;
+   --white: #FFDDF5;
    --dark-gray: #2E2E2E;
    --black: #170C17;
    --purple: #5F2268;
@@ -17,6 +18,8 @@
    --font-size-nm: 1.125rem;
    --font-size-lg: 2rem;
    --font-size-xl: 3rem;
+
+   --header-height: 13vh;
 }
 
 *{
@@ -25,6 +28,8 @@
 
 body{
    font-family: var(--main-font);
+   background-image: linear-gradient(125deg, var(--lilac) -50%, var(--white), var(--pink) 150%);
+   background-size: 350%;
 }
 
 .header{
@@ -33,4 +38,6 @@ body{
    display: flex;
    justify-content: space-between;
    align-items: center;
+   height: var(--header-height);
+   margin-bottom: calc(100vh - var(--header-height));
 }

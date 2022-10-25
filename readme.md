@@ -7,9 +7,11 @@ Portfolio, Sobre mim, Contato
 
 Foto grande em parallaxe pegando toda a primeira dobra
 
-Breve apreentacao (sobre mim) com slideshow abaixo
+Tati fotografia com slideshow abaixo
 
 Call to action (entre ja em contato)com grid abaixo
+
+Breve apreentacao (sobre mim)
 
 Swiper com depoimento
 
