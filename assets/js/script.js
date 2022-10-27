@@ -1,22 +1,44 @@
 //swiper
 const buttonsList = document.querySelectorAll(".introduction--swiper--arrow");
 const swiper = document.querySelector(".introduction--swiper--list");
-let transformRate = 0;
+let transformRate = -99.99;
 
 buttonsList.forEach(button => {
-  button.addEventListener("click", (e) => {
-    
+  button.addEventListener("click", (e) => {    
     let direction = e.target.dataset.direction;
-    
-    if(direction==="previous" /*&& transformRate>-60*/){
-      transformRate -= 30;
-      swiper.appendChild(swiper.firstElementChild);
-    } else if(direction === "next" && transformRate<0){
-      transformRate += 30;
+    if(direction==="previous"){
+      swiper.style.transition = "transform 2s ease-in-out";
+      transformRate -= 33.33;
+      swiper.style.transform = `translateX(${transformRate}vw)`;
+      if(transformRate<=-199){
+        setTimeout(function() {
+          swiper.style.transition = "none";
+          swiper.style.transition = "transform 0s ease-in-out";
+          transformRate = -33.33;
+          swiper.style.transform = `translateX(${transformRate}vw)`;}, 2000);
+        swiper.style.transition = "none";
+        swiper.style.transition = "transform 2s ease-in-out";
+      }
+    } else if(direction === "next"){
+      swiper.style.transition = "transform 2s ease-in-out";
+      transformRate += 33.33;
+      swiper.style.transform = `translateX(${transformRate}vw)`;
+      if(transformRate>=0){
+        setTimeout(function() {
+          swiper.style.transition = "none";
+          swiper.style.transition = "transform 0s ease-in-out";
+          transformRate = -166.65;
+          swiper.style.transform = `translateX(${transformRate}vw)`;}, 2000);
+        swiper.style.transition = "none";
+        swiper.style.transition = "transform 2s ease-in-out";
+      }
     }
-    swiper.style.transform = `translateX(${transformRate}vw)`
   })
 });
+
+//Tentar manipular a classe
+
+
 //15 itens, jogar uma pro final, mexer ul, depois fazer a tansição
 
 
@@ -39,3 +61,9 @@ buttonsList.forEach(button => {
       //Inserir no ultimo
 /*             let element = swiper.lastElementChild.cloneNode();
       swiper.prepend(element); */
+
+      /*       swiper.appendChild(swiper.firstElementChild);
+      swiper.style.transition = "transform 0s ease-in-out"; */
+
+      /*       swiper.prepend(swiper.lastElementChild);
+      swiper.style.transition = "transform 0s ease-in-out"; */

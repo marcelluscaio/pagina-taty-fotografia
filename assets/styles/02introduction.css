@@ -77,11 +77,10 @@
 .introduction--swiper--list{
    display: flex;
    position: relative;
-   transition: 2s ease-in-out;
 }
 
 .introduction--swiper--list--item--image{
-   width: 32vw;
-   height: 32vw;
+   width: 33.33vw;
+   height: 33.33vw;
    object-fit: cover;
 }
