@@ -29,6 +29,7 @@
 .introduction--swiper{
    overflow-x: hidden;
    position: relative;
+   margin-top: 2rem;
 }
 
 .introduction--swiper--arrow{

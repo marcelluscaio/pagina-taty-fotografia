@@ -1,0 +1,41 @@
+.about--text{
+   width: 50%;
+}
+
+.about--text--title{
+   font-family: var(--title-font);
+   font-size: var(--font-size-lg);
+   line-height: var(--font-size-lg);
+   font-weight: bold;
+   padding: 1em 0 0.5em;
+   text-align: center;
+   color: transparent;
+   background-image: linear-gradient(160deg , var(--lilac) -15%, var(--pink) 115%);
+   background-clip: text;
+   -webkit-background-clip: text;
+}
+
+.about--text--body{
+   width: 80%;
+   color: var(--dark-gray);
+   text-align: center;
+   display: block;
+   margin: 0 auto;
+   line-height: 1.5em;
+   font-size: var(--font-size-nm);
+}
+
+
+.about--image-container{
+   width: 50%;
+}
+
+.about--image-container--image{
+   width: 35vw;
+   height: 35vw;
+   border-radius: 50%;
+   object-fit: cover;
+   object-position: top;
+   margin: 0 auto;
+   display: block;
+}

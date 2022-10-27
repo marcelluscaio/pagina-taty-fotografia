@@ -4,16 +4,16 @@ Estrutura:
 
 Header semitransparente (usando mix blend mode)
 Portfolio, Sobre mim, Contato 
-
 Foto grande em parallaxe pegando toda a primeira dobra
 
-Tati fotografia com slideshow abaixo
+Apresentação com carrossel/slider abaixo
 
-Call to action (entre ja em contato)com grid abaixo
+Breve apresentacao (sobre mim)
 
-Breve apreentacao (sobre mim)
+Grid com fotos
 
-Swiper com depoimento
+Call to action (entre ja em contato)
+
 
 
 Guia de estilos:
@@ -40,3 +40,9 @@ https://www.robisonkunz.com.br/
 
 
 
+
+Conquistas:
+Fazer o header transparente sem usar opacity
+(Fiz o backgroun no after, talvez fosse mais interessante fazer a faixa no after)
+
+Swiper feito somente com javascript sem usar biblioteca

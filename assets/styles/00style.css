@@ -1,6 +1,7 @@
 @import url("reset.css");
 @import url("01header.css");
 @import url("02introduction.css");
+@import url("03about.css");
 
 :root{
    --gray: #9C9C9C;
@@ -40,4 +41,14 @@ body{
    align-items: center;
    height: var(--header-height);
    margin-bottom: calc(100vh - var(--header-height));
+}
+
+.introduction{
+   padding-bottom: 3rem;
+}
+
+.about{
+   display: flex;
+   padding: 8vh 0 12vh;
+   align-items: center;
 }
