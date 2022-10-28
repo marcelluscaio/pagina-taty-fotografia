@@ -35,4 +35,11 @@
    filter: brightness(0) invert(0.5);
    mix-blend-mode: color-burn;
    width: 15vw;
+   transition: transform 2s ease;
+}
+
+.cta--images--image:hover{
+   transform: scale(1.025) translateY(-10px);
+   transition: transform .5s ease;
+
 }
