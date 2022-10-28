@@ -16,6 +16,7 @@
    background-image: url("../img/banner-background2.jpg");
    background-repeat: no-repeat;
    background-size: cover;
+   background-attachment: fixed;
 }
 
 .header--logo{

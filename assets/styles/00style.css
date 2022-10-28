@@ -3,6 +3,7 @@
 @import url("02introduction.css");
 @import url("03about.css");
 @import url("04gallery.css");
+@import url("05cta.css");
 
 :root{
    --gray: #9C9C9C;
@@ -55,6 +56,9 @@ body{
    align-items: center;
 }
 
-.gallery{
-   height: 300vh;
+.cta{
+   padding: 7vh 3rem;
+
+   display: flex;
+   align-items: center;
 }
