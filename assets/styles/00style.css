@@ -2,6 +2,7 @@
 @import url("01header.css");
 @import url("02introduction.css");
 @import url("03about.css");
+@import url("04gallery.css");
 
 :root{
    --gray: #9C9C9C;
@@ -30,6 +31,7 @@
 body{
    font-family: var(--main-font);
    background-image: linear-gradient(125deg, var(--lilac) -50%, var(--white), var(--pink) 150%);
+   background-repeat: no-repeat;
    background-size: 350%;
 }
 
@@ -51,4 +53,8 @@ body{
    display: flex;
    padding: 8vh 0 12vh;
    align-items: center;
+}
+
+.gallery{
+   height: 300vh;
 }
