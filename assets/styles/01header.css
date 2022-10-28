@@ -33,11 +33,20 @@
    gap: 4em;
 }
 
-.header--navigation--list--item--link{
+.header--navigation--list--item--link{   
+   display: inline-block;
    text-decoration: none;
    color: transparent;
    background-image: linear-gradient(160deg, var(--white) -30%, var(--pink) 30%, var(--white) 105%, var(--pink) 130%);
    background-clip: text;
    -webkit-background-clip: text;
    font-size: var(--font-size-nm);
+   will-change: transform, filter;
+   transition: transform 1.5s ease-in-out, filter 1s ease-in-out;
+}
+
+.header--navigation--list--item--link:hover{
+   transform: translate(2px, -3px);
+   filter: brightness(1.25); 
+   transition: transform 0.5s ease, filter 1s ease-in-out;
 }
