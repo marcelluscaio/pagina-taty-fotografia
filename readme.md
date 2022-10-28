@@ -9,10 +9,10 @@ Working on responsivity
 
 
 ### Highlights:
-* :metal: Parallax effect
+* :eye_speech_bubble: Parallax effect
 * :mage: Infinite carousel made with pure JS (no libraries used)
-* :hamburger: Image gallery using CSS Grid (with text overlay on hover)
-* :musical_keyboard: Different transition timing for hover on and off
+* :art: Image gallery using CSS Grid (with text overlay on hover)
+* :gear: Different transition timing for hover on and off
 
 ### Tecnologies used:
 
