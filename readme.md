@@ -5,22 +5,21 @@
 Please open on computer <br>
 Working on responsivity
 
-<img src="assets/img">
+<img src="assets/img/screencapture-marcelluscaio-github-io-pagina-taty-fotografia-2022-10-28-17_10_34.png">
 
-### Pontos de atenção:
-* :metal: Uso de blend-mode para tratamento de imagens (logo, imagem de background na primeira dobra, etc.)
-* :mage: Toda manipulação de imagens foi feita com código. Nenhum asset foi tratado com editor de imagem
-* :hamburger: menu hambúrguer animado feito somente com css
-* :musical_keyboard: Acordeon animado
-* :thread: Linha do tempo animada em função do scroll
-* :hourglass_flowing_sand: Contador em tempo real até a data limite (31/12/2022)
 
-### Tecnologias utilizadas:
+### Highlights:
+* :metal: Parallax effect
+* :mage: Infinite carousel made with pure JS (no libraries used)
+* :hamburger: Image gallery using CSS Grid (with text overlay on hover)
+* :musical_keyboard: Different transition timing for hover on and off
+
+### Tecnologies used:
 
 * HTML
 * CSS
 * Javascript
 
-### Como executar:
+### How to open:
 
-Acesse: https://marcelluscaio.github.io/CSV-LP-Professor-Guitarra-CTD/
+Access: https://marcelluscaio.github.io/pagina-taty-fotografia/
