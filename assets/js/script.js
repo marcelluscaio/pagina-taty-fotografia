@@ -6,7 +6,7 @@ let transformRate = -99.99;
 buttonsList.forEach(button => {
   button.addEventListener("click", (e) => {    
     let direction = e.target.dataset.direction;
-    if(direction==="previous"){
+    if(direction==="next"){
       swiper.style.transition = "transform 2s ease-in-out";
       transformRate -= 33.33;
       swiper.style.transform = `translateX(${transformRate}vw)`;
@@ -19,7 +19,7 @@ buttonsList.forEach(button => {
         swiper.style.transition = "none";
         swiper.style.transition = "transform 2s ease-in-out";
       }
-    } else if(direction === "next"){
+    } else if(direction === "previous"){
       swiper.style.transition = "transform 2s ease-in-out";
       transformRate += 33.33;
       swiper.style.transform = `translateX(${transformRate}vw)`;

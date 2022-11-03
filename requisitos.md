@@ -1,5 +1,9 @@
 read me em construção
 
+Whatsapp
+https://www.horadecodar.com.br/2020/11/30/abrir-whatsapp-clicando-em-um-link/
+https://www.webcreative.com.br/artigo/link-para-abrir-whatsapp-no-seu-site
+
 Estrutura:
 
 Header semitransparente (usando mix blend mode)
