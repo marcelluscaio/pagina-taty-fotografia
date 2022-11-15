@@ -4,6 +4,7 @@
 @import url("03about.css");
 @import url("04gallery.css");
 @import url("05cta.css");
+@import url("06footer.css");
 
 :root{
    --gray: #9C9C9C;

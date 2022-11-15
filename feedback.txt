@@ -1,0 +1,17 @@
+Acabei de ver seu projeto 2 e estou aqui para te dar alguns feedbacks.
+
+Primeiramente parabéns pelo projeto, gostei muito do seu compromisso. Sobre o CTD você está de parabéns sendo melhor 1% a cada dia, com tempo você verá uma evolução fantástica.
+
+Sobre os feedbacks vamos lá….
+
+Seu readme está incrível, já tinha gostado muito do primeiro, ficou excelente. Caso ainda não tenha visto a aula no nutor sobre Readme te recomendo a assistir, vai cooperar bastante para seus próximos projetos.
+
+Seu projeto ficou muito bom, as pastas estão organizadas dentro do assets, percebi que você aplicou o css-grid para mostrar a galeria de fotos, ficou muito bom, está evoluindo bem. Na parte do JS gostei da solução, seu código esta bem estruturado e de fácil entendimento.
+
+Referente aos seus planos de projetos futuros, gostei bastante do conteúdo proposto, você está no caminho certo, saber consumir API e realizar um crud vai ajudar você evoluir bastante e te preparar melhor para começar usar alguma framework de frontend tais como Vue, React e Angular. Para projetos futuros te recomendo salvar os dados no Firebase da google é gratuito e vai te ajudar muito nessa parte de persistência de dados.
+
+Até mais forte abraço.
+
+Qualquer dúvida estou à disposição para trocarmos de ideia.
+
+Fabricio

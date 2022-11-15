@@ -16,8 +16,8 @@ buttonsList.forEach(button => {
           swiper.style.transition = "transform 0s ease-in-out";
           transformRate = -33.33;
           swiper.style.transform = `translateX(${transformRate}vw)`;}, 2000);
-        swiper.style.transition = "none";
-        swiper.style.transition = "transform 2s ease-in-out";
+/*         swiper.style.transition = "none";
+        swiper.style.transition = "transform 2s ease-in-out"; */
       }
     } else if(direction === "previous"){
       swiper.style.transition = "transform 2s ease-in-out";
@@ -29,8 +29,8 @@ buttonsList.forEach(button => {
           swiper.style.transition = "transform 0s ease-in-out";
           transformRate = -166.65;
           swiper.style.transform = `translateX(${transformRate}vw)`;}, 2000);
-        swiper.style.transition = "none";
-        swiper.style.transition = "transform 2s ease-in-out";
+/*         swiper.style.transition = "none";
+        swiper.style.transition = "transform 2s ease-in-out"; */
       }
     }
   })
