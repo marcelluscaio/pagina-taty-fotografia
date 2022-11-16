@@ -23,3 +23,11 @@ Working on responsivity
 ### How to open:
 
 Access: https://marcelluscaio.github.io/pagina-taty-fotografia/
+
+### Still to come
+[ ] Responsivity
+[ ] Add new photos
+[ ] Control Grid height
+[ ] Improve footer (use film strips?)
+[ ] Portfolio for each theme 
+[ ] Parcerias
