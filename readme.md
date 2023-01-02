@@ -27,7 +27,6 @@ Access: https://marcelluscaio.github.io/pagina-taty-fotografia/
 ### Still to come
 [ ] Estrutura: Swiper CTA Mosaico
 [ ] Responsivity
-[ ] Aumentar botao swiper
 [ ] Control Grid height
 [ ] Header sticks a while
 [ ] Criar secao home

@@ -33,35 +33,3 @@ buttonsList.forEach(button => {
     setTimeout(() => e.target.disabled = false, 2000);
   })
 });
-
-//Tentar manipular a classe
-
-
-//15 itens, jogar uma pro final, mexer ul, depois fazer a tansição
-
-
-//mudar src das que estao invisiveis
-//problema: se eu estou movendo o ul, alguma hora vai acabar
-//quando a o carrossel atingir deteminado tamanho, cortar 5 imagens
-// 1 2 3 4 5 | 1 2 3 4 5 | 1 2 3 4 5
-// se 1 2 3 4 5 1 2 3 4 5 | 1 2 3 4 5|
-// 
-
-//Usar uma coringa
-// 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 
-//desliza, coloca uma ponta na outra
-
-//desafio: fazer infinito
-/*    swiper.appendChild(element) */
-      //      swiper.prepend(swiper.lastElementChild);
-//      ;
-      //Excluir o primeiro
-      //Inserir no ultimo
-/*             let element = swiper.lastElementChild.cloneNode();
-      swiper.prepend(element); */
-
-      /*       swiper.appendChild(swiper.firstElementChild);
-      swiper.style.transition = "transform 0s ease-in-out"; */
-
-      /*       swiper.prepend(swiper.lastElementChild);
-      swiper.style.transition = "transform 0s ease-in-out"; */
