@@ -25,18 +25,18 @@ Working on responsivity
 Access: https://marcelluscaio.github.io/pagina-taty-fotografia/
 
 ### Still to come
-[ ] Tematicas no swiper
-[ ] Header sticks a while
-[ ] aumeentar botao swiper
-[ ] criar secao home
-[ ] Jogar sobre mim para se;'ao sobre mim
-[ ]  Criar secao portfolio
-[ ] Na secao de portfolio cta agende seu ensaio
-[ ] clicando na foto, mostra ela ( como)
-[ ] Estrutura: swiper CTA Mosaico
+[ ] Estrutura: Swiper CTA Mosaico
 [ ] Responsivity
-[ ] Add new photos
+[ ] Aumentar botao swiper
 [ ] Control Grid height
-[ ] Improve footer (use film strips?)
+[ ] Header sticks a while
+[ ] Criar secao home
+[ ] Jogar sobre mim para secao sobre mim
+[ ] Criar secao portfolio
+[ ] Na secao de portfolio cta agende seu ensaio
+[ ] Clicando na foto, mostra ela (como)
+[ ] Add new photos
 [ ] Portfolio for each theme 
 [ ] Parcerias
+[ ] Tematicas no swiper
+[ ] Improve footer (use film strips?)

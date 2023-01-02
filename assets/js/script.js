@@ -5,6 +5,7 @@ let transformRate = -99.99;
 
 buttonsList.forEach(button => {
   button.addEventListener("click", (e) => {    
+    e.target.disabled = true;
     let direction = e.target.dataset.direction;
     if(direction==="next"){
       swiper.style.transition = "transform 2s ease-in-out";
@@ -16,8 +17,6 @@ buttonsList.forEach(button => {
           swiper.style.transition = "transform 0s ease-in-out";
           transformRate = -33.33;
           swiper.style.transform = `translateX(${transformRate}vw)`;}, 2000);
-/*         swiper.style.transition = "none";
-        swiper.style.transition = "transform 2s ease-in-out"; */
       }
     } else if(direction === "previous"){
       swiper.style.transition = "transform 2s ease-in-out";
@@ -29,10 +28,9 @@ buttonsList.forEach(button => {
           swiper.style.transition = "transform 0s ease-in-out";
           transformRate = -166.65;
           swiper.style.transform = `translateX(${transformRate}vw)`;}, 2000);
-/*         swiper.style.transition = "none";
-        swiper.style.transition = "transform 2s ease-in-out"; */
       }
     }
+    setTimeout(() => e.target.disabled = false, 2000);
   })
 });
 
