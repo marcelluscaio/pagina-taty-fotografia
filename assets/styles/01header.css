@@ -41,8 +41,8 @@
    background-clip: text;
    -webkit-background-clip: text;
    font-size: var(--font-size-nm);
-   will-change: transform, filter;
-   transition: transform 1.5s ease-in-out, filter 1s ease-in-out;
+   will-change: transform;
+   transition: transform .75s ease-in-out, filter 1s ease-in-out;   
 }
 
 .header--navigation--list--item--link:hover{

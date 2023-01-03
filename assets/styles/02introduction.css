@@ -53,6 +53,12 @@
    /* transform: scale(1.05); está fazendo a seta se mover  */
 }
 
+.introduction--swiper--arrow:active{
+   filter: brightness(.8);
+   transform: translateY(5%) scale(.9);
+   transition: filter .5s linear, transform .5s ease-in-out;
+}
+
 .arrow-previous{
    left: calc(2vh + 2vw);   
 }
