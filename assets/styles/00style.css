@@ -23,7 +23,7 @@
    --font-size-lg: 2rem;
    --font-size-xl: 3rem;
 
-   --header-height: 13vh;
+   --header-height: 17vh;
 }
 
 *{
@@ -83,4 +83,8 @@ body{
    display: flex;
    padding: 8vh 0 12vh;
    align-items: center;
+}
+
+:has(.about) .header{
+   margin-bottom: 0;
 }
