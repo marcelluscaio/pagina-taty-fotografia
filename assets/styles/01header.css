@@ -17,7 +17,7 @@
    height: 100vh;
    width: 100%;
    z-index: -1;
-   align-self: flex-start;
+   align-self: flex-start;/*Necessário para não sofrer redução por conta do align center do header*/
    background-image: url("../img/banner-background2.jpg");
    background-repeat: no-repeat;
    background-size: cover;
@@ -58,4 +58,10 @@
    transform: translate(2px, -3px);
    filter: brightness(1.25); 
    transition: transform 0.5s ease, filter 1s ease-in-out;
+}
+
+@media screen and (max-width: 700px){
+   .header--navigation{
+      display: none;
+   }
 }

@@ -12,7 +12,8 @@
 }
 
 .introduction--text{
-   width: 80ch;
+   max-width: 80ch;
+   width: 70%;
    color: var(--dark-gray);
    text-align: justify;
    display: block;

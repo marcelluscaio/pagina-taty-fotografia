@@ -18,10 +18,15 @@
    --main-font: 'Ubuntu', sans-serif;
    --title-font: 'Crafty Girls', cursive;
 
-   --font-size-sm: 0.75rem;
-   --font-size-nm: 1.125rem;
-   --font-size-lg: 2rem;
-   --font-size-xl: 3rem;
+   --sm: 0.75rem;
+   --nm: 1.125rem;
+   --lg: 2rem;
+   --xl: 3rem;
+
+   --font-size-sm: clamp(calc(var(--sm) / 2), calc((var(--sm) / 3) + 2vw), var(--sm)) ;
+   --font-size-nm: clamp(calc(var(--nm) / 2), calc((var(--nm) / 3) + 2vw), var(--nm));
+   --font-size-lg: clamp(calc(var(--lg) / 2), calc((var(--lg) / 3) + 2vw), var(--lg));
+   --font-size-xl: clamp(calc(var(--xl) / 2), calc((var(--xl) / 3) + 2vw), var(--xl));
 
    --header-height: 17vh;
 }
