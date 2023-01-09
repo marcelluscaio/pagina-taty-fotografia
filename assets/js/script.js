@@ -33,3 +33,9 @@ buttonsList.forEach(button => {
     setTimeout(() => e.target.disabled = false, 2000);
   })
 });
+
+//Set year of copyright
+const now = new Date();
+const year = now.getFullYear();
+const footer = document.querySelector('.footer__copyright');
+footer.textContent = `${year} ${footer.textContent}`;
